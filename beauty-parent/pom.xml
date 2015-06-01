@@ -6,7 +6,7 @@
   <packaging>pom</packaging>
   <name>beauty-parent</name>
   <modules>
-	<module>beauty-utils</module>
+	<module>../beauty-utils</module>
 	
   </modules>
   <properties>
