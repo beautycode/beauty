@@ -7,7 +7,6 @@
   <name>beauty-parent</name>
   <modules>
 	<module>../beauty-utils</module>
-	
   </modules>
   <properties>
 		<!-- 主要依赖库的版本定义 -->
