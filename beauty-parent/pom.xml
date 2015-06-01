@@ -5,10 +5,7 @@
   <version>v1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>beauty-parent</name>
-  <modules>
-	<module>../beauty-utils</module>
-	
-  </modules>
+  
   <properties>
 		<!-- 主要依赖库的版本定义 -->
 		<beauty.version>v1.0-SNAPSHOT</beauty.version>
