@@ -19,7 +19,7 @@ public class FreeMarkers {
 	public static String renderString(String templateString, Map<String, ?> model) {
 		try {
 			StringWriter result = new StringWriter();
-			Template t = new Template("default", new StringReader(templateString), null);
+			Template t = new Template("default", new StringReader(templateString), new Configuration(Configuration.VERSION_2_3_21));
 			t.process(model, result);
 			return result.toString();
 		} catch (Exception e) {
