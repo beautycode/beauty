@@ -94,7 +94,7 @@
 			<!-- spring-->
 			<!-- 纯粹为了exclude commons-loging -->
 			<dependency>
-				<groupId>cn.org.springframework</groupId>
+				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
 				<version>${spring.version}</version>
 				<exclusions>
@@ -105,7 +105,7 @@
 				</exclusions>
 			</dependency>
 			<dependency>
-				<groupId>cn.org.springframework</groupId>
+				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
 				<version>${spring.version}</version>
 				<exclusions>
